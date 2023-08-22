@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('https://media.istockphoto.com/id/1425908594/photo/happy-new-year-2023-countdown-clock-on-abstract-glittering-midnight-sky-with-copy-space.webp?b=1&s=170667a&w=0&k=20&c=cv1LUjhoNppMkT7XC4cUMOv52IYo1gPObU4jRdZ7m9w=');
+    background-size:cover;
+    color:aqua;
+    background-position:center;
+}
+.counter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    gap:10px;
+}
+p{
+    font-size:15px;
+}
+.newyear{
+    font-family:lobster;
+    font-size:50px;
+    font-weight:400;
+    margin-top:30px;
+
+}
+.box{
+    width:50px;
+    height:50px;
+    text-align:center;
+}
+.box h2{
+    font-size:20px;
+    font-weight:500px;
+}
+.box small{
+    font-size:10px;
+}
+@media(min-width:500px){
+    .newyear{
+        font-size:100px;
+    }
+    p{
+        font-size:20px;
+    }
+    .box h2{
+        font-size:30px;
+    }
+    .box{
+        width:100px;
+        height:70px;
+    }
+    .box small{
+        font-size:15px;
+
+    }
+}
+@media(max-width:700px){
+    .newyear{
+        font-size:150px;
+    }
+    p{
+        font-size:30px;
+    }
+    .box h2{
+        font-size:50px;
+    }
+    .box{
+        width:150px;
+        height:150px;
+    }
+    .box small{
+        font-size:20px;
+    }
+} 
